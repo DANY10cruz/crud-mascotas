@@ -10,24 +10,7 @@ Este es un proyecto de backend diseñado para gestionar información de mascotas
 - **MongoDB**: Base de datos NoSQL, utilizada para almacenar la información de las mascotas.
 - **Dotenv**: Para cargar variables de entorno desde un archivo `.env`.
 
-## 📂 Estructura del Proyecto
-
-CRUD-MASCOTAS/
-├── backend/
-│ ├── src/
-│ │ ├── conexionbd/ # Configuración de la conexión a la base de datos
-│ │ ├── controlador/ # Lógica de negocio (manejo de peticiones HTTP)
-│ │ ├── modelo/ # Interacción directa con la base de datos (operaciones CRUD)
-│ │ ├── rutas/ # Definición de las rutas de la API
-│ │ ├── schema/ # Definición de los esquemas de Mongoose
-│ │ ├── index.js # Archivo principal del servidor Express
-│ │ └── servidor.js # Configuración y arranque del servidor (opcional, a veces integrado en index.js)
-│ ├── .env # Variables de entorno (IGNORADO por Git)
-│ ├── .gitignore # Archivo para ignorar archivos y carpetas en Git
-│ ├── package.json # Metadatos del proyecto y dependencias
-│ ├── package-lock.json # Registro exacto de las dependencias
-│ └── README.md # Este archivo
-└── README.md # README principal del proyecto (opcional si solo hay un backend)
+#
 
 🚨 Códigos de Estado HTTP
 Aquí se listan algunos de los códigos de estado HTTP que la API puede retornar:
